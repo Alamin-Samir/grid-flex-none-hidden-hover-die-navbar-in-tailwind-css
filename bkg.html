@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>Responsive Menu</title>
+</head>
+<body class="bg-gray-100">
+
+  <div class="flex items-center justify-between p-4 bg-white shadow-md">
+
+
+
+
+
+
+    <div>
+      <img class="h-16" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDm8gJx64gHeOm9QQ3B8cRQGAhCGTv_UJBMA&s" alt="logo">
+
+
+
+
+
+    </div>
+
+
+
+    <ul class="hidden md:flex gap-8 text-lg font-medium">
+
+      <li class="hover:text-blue-600 cursor-pointer">Home</li>
+      <li class="hover:text-blue-600 cursor-pointer">Contact</li>
+      <li class="hover:text-blue-600 cursor-pointer">About Us</li>
+      <li class="hover:text-blue-600 cursor-pointer">Portfolio</li>
+
+    </ul>
+
+    <div class="relative group md:hidden">
+
+      <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
+
+     
+      <ul class="absolute right-0 top-8 bg-white shadow-lg rounded-lg p-3 grid grid-cols-1 gap-2 w-40 hidden group-hover:grid">
+        
+        <li class="hover:text-blue-600 cursor-pointer">Home</li>
+        <li class="hover:text-blue-600 cursor-pointer">Contact</li>
+
+        <li class="hover:text-blue-600 cursor-pointer">About Us</li>
+        <li class="hover:text-blue-600 cursor-pointer">Portfolio</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
